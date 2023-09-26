@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
 import Search from '../../assets/search.png'
 const MyComponent = ({navigation}) => {
   return (
-    <View className="flex-row px-4 py-8 justify-between items-center bg-white shadow-lg">
+    <View className="flex-row px-4 py-6 justify-between items-center bg-white shadow-lg">
 
       
       <Text className='text-lg font-bold text-orangeprimary mt-5'>EKHONIJANUN</Text>

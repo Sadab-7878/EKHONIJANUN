@@ -42,7 +42,7 @@ const Search = ({navigation}) => {
             </TouchableOpacity>
 
 
-            <TextInput placeholder='Enter Your Query' value={searchtext} placeholderTextColor={'white'} className='text-lg font-semibold text-white' onChangeText={(text) => 
+            <TextInput placeholder='Enter Your Query' value={searchtext} placeholderTextColor={'white'} className='text-lg font-semibold text-white flex-1' onChangeText={(text) => 
 
             searchNews(text)
             
